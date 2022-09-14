@@ -6,14 +6,14 @@
 //fruit =  prompt('fruit name')
 //console.log(fruit)
 //* /** + -
-/*food=Number(prompt('How much was the food ?'))
-tip=Number(prompt('Tip percentage'))/100
-tipAmount= food *tip
-total= food +tipAmount
+// food=Number(prompt('How much was the food ?'))
+// tip=Number(prompt('Tip percentage'))/100
+// tipAmount= food *tip
+// total= food +tipAmount
 
-console.log(`Tip Amount is : ${tipAmount}`)
-console.log(`total Amount is : ${total}`)
-//alert(tipAmount)
+// console.log(`Tip Amount is : ${tipAmount}`)
+// console.log(`total Amount is : ${total}`)
+// alert(tipAmount)
 // Data Type(Nummber and strings)/*
 
 /*
@@ -39,14 +39,56 @@ Math.Random()=Random Number*/
 //baby wwather app (Conditional)
 //if rain "grab your umbrella"
 //else "Wear Your SunGlasses"
-let weather=prompt(`weather is`)
-if(weather =='rain'){
+/*let weather=prompt(`How is the weather:)`)
+if(weather =='rainy'){
   console.log("grab your umbrella");
 }else{
   console.log("Wear Your SunGlasses")
-}
+}*/
+//conditional operators
+// ==, ===,>,<,<=,>=,!=,!==
 
 
 //function
+
+function sayMyName(name) {
+  console.log(name)
+}
+
+//sayMyName("KUNAL DARNE NAMASTE BRO")
+
+function greeting(name) {
+  console.log(`hi ${name} ,Nice To Meet You!`)
+}
+//greeting("Kunal Darne")
+
+
+function sum(a,b){
+  return a+b
+}
+// Answer=sum(10,20);
+// console.log(Answer)
+// function calculateFoodTotal(food,tip){
+// tipPEr=tip/100
+// tipAmount= food *tipPEr
+// total= sum(food,tipAmount)
+//   return total
+// }
+// console.log(calculateFoodTotal(300,20))
+
+// console.log(`Tip Amount is : ${tipAmount}`)
+// console.log(`total Amount is : ${total}`)
+
+// // Es6
+// //Arrow Function
+// const sumAroow=(a,b) => a*b
+// console.log(sumAroow(10,23))
+
+//Arrays
+const groceries=['bannana ','apple','grapes','mangoo'];
+console.log(groceries[2])
+
+
+
 
 

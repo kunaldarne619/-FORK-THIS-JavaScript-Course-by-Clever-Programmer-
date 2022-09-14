@@ -8,9 +8,10 @@
   ES6 Syntax (Arrow function): const add = () => {}
 */
 
-function add(){
-  //Add function here
+const add =(a,b) =>{
+  return a +b;
 }
+console.log(add(4,6))
 
 function sub(){
   //Subtract function here
