@@ -352,12 +352,12 @@ function greeting(name) {
 //   { name: 'leonardo', netWorth: 10000000 },
 // ]
 
-// let result = actors.filter(actor => actor.netWorth > 10)
-// console.log(result)
-// let names = result.map(actor => actor.name).join(', ')
+// let resulte = actors.filter(actor => actor.netWorth > 10)
+// console.log(resulte)
+// let names = resulte.map(actor => actor.name).join(', ')
 // console.log(actors.reduce((prev, curr) => prev + curr.netWorth, 0))
 
-// playground.innerHTML = `<h1>${names}</h1>`
+//playground.innerHTML = '<h1>helllo kunal bro</h1>'
 
 // const nums = [1, 2, 3, 4]
 // const result = nums.reduce((a, b) => a + b, 0)
@@ -400,3 +400,4 @@ function greeting(name) {
 
 // DOG API
 // https://dog.ceo/api/breeds/image/random
+
